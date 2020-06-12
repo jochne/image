@@ -1,5 +1,0 @@
-DOMAIN,gdmf.apple.com,REJECT
-DOMAIN,mesu.apple.com,REJECT
-DOMAIN,world-gen.g.aaplimg.com,REJECT
-DOMAIN,ocsp.apple.com,REJECT
-DOMAIN,ocsp.int-x3.letsencrypt.org,REJECT
