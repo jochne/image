@@ -1,0 +1,12 @@
+#!name=抖音去水印下载
+#!desc=自用抖音去水印下载模块
+
+[Rule]
+DOMAIN,api-h2.tiktokv.com,PROXY
+
+[URL Rewrite]
+(.*video_id=\w{32})(.*watermark=)(.*) $1 302
+(?<=(carrier|account|sys)_region=)CN JP 307
+
+[MITM]
+hostname = %APPEND% api*.tiktokv.com
