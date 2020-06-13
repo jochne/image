@@ -2,7 +2,11 @@
 #!desc=用来精简配置文件的远程重写列表
 
 [URL Rewrite]
-# > Redirect Google Service
+
+# Update time: 2020.6.13
+# This rewrite rule set comes from lhie1 automatically generated config file.
+
+# > Redirect Google Servicea
 ^https?:\/\/(www.)?g\.cn https:\/\/www.google.com 302
 ^https?:\/\/(www.)?google\.cn https:\/\/www.google.com 302
 
