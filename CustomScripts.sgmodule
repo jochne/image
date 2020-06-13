@@ -14,8 +14,6 @@ cron "0 8 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/mas
 cron "0 9 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/iQIYI-DailyBonus/iQIYI_DailyBonus.js
 # > JD DailyBonus
 cron "5 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
-# > Bilibili DailyBonus
-cron "0 9 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js
 
 [MITM]
-hostname = %APPEND% www.52pojie.cn, *.iqiyi.com, api.m.jd.com, manga.bilibili.com
+hostname = %APPEND% www.52pojie.cn, *.iqiyi.com, api.m.jd.com
