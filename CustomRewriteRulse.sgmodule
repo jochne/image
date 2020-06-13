@@ -1,5 +1,5 @@
 #!name=Custom rewrite rules
-#!desc=用来精简配置文件的远程重写列表
+#!desc=自用精简配置文件的远程重写列表
 
 [URL Rewrite]
 
