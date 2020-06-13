@@ -1,6 +1,9 @@
 #!name=Custom rewrite rules
 #!desc=This module integrate self use rewrite rules
 
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/NobyDa/Script/master/Surge/AdRuleRegex.list,DIRECT
+
 [URL Rewrite]
 # > Redirect Google Service
 ^https?:\/\/(www.)?g\.cn https:\/\/www.google.com 302
