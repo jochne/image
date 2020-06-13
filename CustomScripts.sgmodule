@@ -1,5 +1,5 @@
 #!name=Custom rewrite rules
-#!desc=This module integrate self use rewrite rules
+#!desc=用来精简配置文件的远程重写列表
 
 [Rule]
 RULE-SET,https://raw.githubusercontent.com/NobyDa/Script/master/Surge/AdRuleRegex.list,DIRECT
