@@ -1,5 +1,6 @@
 #!name=抖音去水印下载
 #!desc=自用抖音去水印下载模块
+#!system=ios
 
 [Rule]
 DOMAIN,api-h2.tiktokv.com,PROXY
